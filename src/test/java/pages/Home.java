@@ -115,6 +115,7 @@ public class Home {
             System.out.println("Element displayed");
         }else {
             Assert.fail("Element not found");
+            System.out.println("abc");
         }
     }
 }

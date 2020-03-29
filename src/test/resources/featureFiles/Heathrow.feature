@@ -4,7 +4,7 @@ Feature: Heathrow home page ui automation
   Background:
     Given I accept cookie
 
-  @bar
+
   Scenario: Validate Only T3 Terminal Displayed by Selecting on Flight arrival
     Given I mouse Hover on "Flights"
     And I clicked on "Arrivals" flights
@@ -19,7 +19,7 @@ Feature: Heathrow home page ui automation
     |    searchField    |
     |   Heathrow parking|
    # |   Fast track      |
-
+  @bar
   Scenario: Mouse Hover on Header parts on Different link
     Given I mouse Hover on "Flights"
     Given I mouse Hover on "At the Airport"

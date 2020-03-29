@@ -83,7 +83,7 @@ public class HeathrowGluecode {
     }
     @After
     public void tearDown(Scenario scenario){
-        /*if(scenario.isFailed()){
+        /*if(scenario.isFailed() ){
             byte[] screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
             scenario.embed(screenshot, "image/png");
         }*/

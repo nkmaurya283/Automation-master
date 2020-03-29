@@ -12,6 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.HashMap;
 import java.util.List;
 
 
@@ -91,7 +92,6 @@ public class Home {
                Assert.fail("Terminal is not visible");
            }
 
-
         }
         System.out.println("Total number is: "+count);
         return ;
@@ -100,6 +100,7 @@ public class Home {
         WebDriverWait wait = new WebDriverWait(driver, 15);
         wait.until(ExpectedConditions.visibilityOf(cookieXpath));
         cookieXpath.click();
+       // HashMap<String,String> str=new HashMap<String, String>();
     }
     public void clickOnSearchField() throws Exception{
         WebDriverWait wait = new WebDriverWait(driver, 15);
